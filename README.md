@@ -8,3 +8,12 @@ Ss ssss :
 - ss ssss ssssssss sssss ;
 - sss sssssssssss ssss ;
 - ss ssss sssss s'sssss sssss.
+
+Harry Potter pour vous traduire :
+
+Jeu du serpent :
+
+- fond d'écran 
+- Papple
+- Collisions
+- Timer, Score
