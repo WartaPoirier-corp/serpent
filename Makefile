@@ -7,7 +7,7 @@ default: native
 release:
 	cargo build --target wasm-unknown-unknown --features web --release
 	wasm-bindgen --out-dir target --out-name wasm --target web --no-typescript target/wasm32-unknown-unknown/release/serpent.wasm
-	# TODO : compiler la version native
+	cargo build --release --features native
 
 # Compile et lance la version native du jeu
 native:
@@ -27,5 +27,5 @@ build-web:
 # (make est bête et ne regarde pas si il y a eu du changement dans les fichiers .rs)
 # (mais cargo est assez intelligent pour recompiler que si il y a besoin, LUI AU MOINS,
 # donc on perd pas de temps)
-.PHONY: build-web run-native
+.PHONY: build-web native
 

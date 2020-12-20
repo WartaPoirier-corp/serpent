@@ -49,3 +49,10 @@ Pareil, `nix-shell` peut les installer.
 ```
 make native
 ```
+
+Ou si vous avez pas `make` (genre sous Windows ça peut être galère à installer),
+cette commande devrait suffire :
+
+```
+cargo run --features native
+```
