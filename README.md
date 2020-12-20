@@ -9,6 +9,15 @@ Ss ssss :
 - sss sssssssssss ssss ;
 - ss ssss sssss s'sssss sssss.
 
+Harry Potter pour vous traduire :
+
+Jeu du serpent :
+
+- fond d'écran 
+- Papple
+- Collisions
+- Timer, Score
+
 ## Compiler le truc
 
 ### Version web
